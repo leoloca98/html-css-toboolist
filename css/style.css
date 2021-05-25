@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generics */
+body{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/* Header */
+.top{
+    height: 100px;
+    line-height: 65px;
+}
+#logo{
+    vertical-align: middle;
+}
+h1{
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+
+
+
+
+/* Main */
