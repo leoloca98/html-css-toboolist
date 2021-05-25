@@ -7,8 +7,9 @@
 /* Generics */
 
 body {
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     background-color: rgba(230, 230, 230, 0.527);
 }
 
@@ -28,14 +29,14 @@ body {
 h1 {
     vertical-align: middle;
     display: inline-block;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
 /* Main */
 
 .container-top {
-    height: 70px;
+    height: 60px;
     width: 60%;
     margin: 50px auto;
     margin-bottom: 0;
@@ -44,7 +45,7 @@ h1 {
 }
 
 .container-main {
-    height: 670px;
+    height: 500px;
     width: 60%;
     margin: 1px auto;
     border-radius: 0 0 2% 2%;
@@ -67,22 +68,39 @@ h1 {
     border-radius: 10%;
     height: 27px;
     width: 90px;
+    background-color: white;
 }
 
-.text{
+.text {
     margin-left: 75px;
     list-style-position: inside;
-
+    line-height: 30px;
 }
 
-.New-task{
-    list-style-type:circle;
+.New-task {
+    list-style-type:georgian ;
 }
 
-.Today{
-    list-style-type:circle;
+/* ul{
+    list-style: none;
 }
 
-.Upcoming{
-    list-style-type:circle;
+ul li::before{
+    content:"✓";
+} */
+
+.check{
+    list-style-type: circle;
+    
+}
+
+.error{
+    list-style-type: circle;
+}
+
+.coso {
+    color: white;
+    font-size: 10px;
+    background-color: rgba(22, 135, 228, 0.699);
+    border-radius: 30% ;
 }
