@@ -33,8 +33,37 @@ h1 {
 }
 
 /* Main */
-.container{
-    height: 500px;
+.container-top{
+    height: 70px;
     width: 60%;
+    margin: 50px auto;
+    margin-bottom: 0;
+    border-radius: 2% 2% 0 0;
     background-color: white;
+}
+
+.container{
+    height: 670px;
+    width: 60%;
+    margin: 1px auto;
+    border-radius: 0 0 2% 2%;
+    background-color: white;
+}
+
+.button-task{
+    color: white;
+    margin-top: 18px;
+    margin-left: 75px;
+    border-radius: 10%;
+    height: 27px;
+    width: 80px;
+    background-color: rgba(22, 135, 228, 0.699);
+}
+
+.button-selection{
+    margin-top: 18px;
+    margin-left: 0;
+    border-radius: 10%;
+    height: 27px;
+    width: 90px;
 }
