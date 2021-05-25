@@ -74,7 +74,7 @@ h1 {
 .text {
     margin-left: 75px;
     list-style-position: inside;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .New-task {
@@ -99,8 +99,33 @@ ul li::before{
 }
 
 .coso {
+    box-sizing: content-box;
+    padding: 5px;
     color: white;
     font-size: 10px;
-    background-color: rgba(22, 135, 228, 0.699);
     border-radius: 30% ;
+}
+
+.editor{
+    background-color:rgba(22, 135, 228, 0.699) ;
+}
+
+.Q1{
+    background-color: rgba(137, 43, 226, 0.699);
+}
+
+.Recrui{
+    background-color: rgba(23, 114, 23, 0.575);
+}
+
+.Mobile{
+    background-color: orange;
+}
+
+.Web{
+    background-color: orchid;
+}
+
+.Sales{
+    background-color: rgba(134, 190, 50, 0.705);
 }
