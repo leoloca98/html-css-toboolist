@@ -45,7 +45,7 @@ h1 {
 }
 
 .container-main {
-    height: 500px;
+    height: 550px;
     width: 60%;
     margin: 1px auto;
     border-radius: 0 0 2% 2%;
@@ -74,28 +74,36 @@ h1 {
 .text {
     margin-left: 75px;
     list-style-position: inside;
-    line-height: 40px;
+    line-height: 35px;
 }
 
-.New-task {
-    list-style-type:georgian ;
-}
-
-/* ul{
+ul{
     list-style: none;
 }
 
-ul li::before{
-    content:"✓";
-} */
+h3::before{
+    content:"\25BE"
+}
+.check::before {
+    content: "\2714";
+}
 
 .check{
-    list-style-type: circle;
-    
+    color: green;
+    border: solid green 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.error::before{
+    content:"\2715";
 }
 
 .error{
-    list-style-type: circle;
+    color: red;
+    border: solid red 1px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .coso {
@@ -103,29 +111,33 @@ ul li::before{
     padding: 5px;
     color: white;
     font-size: 10px;
-    border-radius: 30% ;
+    border-radius: 30%;
 }
 
-.editor{
-    background-color:rgba(22, 135, 228, 0.699) ;
+.editor {
+    background-color: rgba(22, 135, 228, 0.699);
 }
 
-.Q1{
+.Q1 {
     background-color: rgba(137, 43, 226, 0.699);
 }
 
-.Recrui{
+.Recrui {
     background-color: rgba(23, 114, 23, 0.575);
 }
 
-.Mobile{
+.Mobile {
     background-color: orange;
 }
 
-.Web{
+.Web {
     background-color: orchid;
 }
 
-.Sales{
+.Sales {
     background-color: rgba(134, 190, 50, 0.705);
+}
+
+h3 {
+    display: inline-block;
 }
