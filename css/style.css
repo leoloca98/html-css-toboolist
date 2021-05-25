@@ -1,35 +1,40 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 /* Generics */
-body{
+
+body {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(230, 230, 230, 0.527);
 }
-
-
-
-
 
 /* Header */
-.top{
+
+.top {
     height: 100px;
-    line-height: 65px;
+    line-height: 100px;
+    background-color: white;
 }
-#logo{
+
+#logo {
     vertical-align: middle;
+    margin-left: 25px;
 }
-h1{
+
+h1 {
+    vertical-align: middle;
     display: inline-block;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
 }
 
-
-
-
-
 /* Main */
+.container{
+    height: 500px;
+    width: 60%;
+    background-color: white;
+}
